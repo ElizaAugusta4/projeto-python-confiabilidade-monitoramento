@@ -24,8 +24,7 @@ class Database:
         else:
             self.conn = psycopg2.connect(
                     dbname='banco_de_dados_tarefas',
-                    user='postgres',
-                    password=96536479,
+
                     host='localhost',
                     port=5432
                 )
