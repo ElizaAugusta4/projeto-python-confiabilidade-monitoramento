@@ -8,7 +8,7 @@ class Database:
         dbname='banco_de_dados_tarefas'
         conn = psycopg2.connect(
             user='postgres',
-            password=96536479,
+        
             host='localhost',
             port=5432
         )
